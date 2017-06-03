@@ -5,7 +5,7 @@ Aim is to provide fully responsive CSS code for daily use. It will work on all d
 
 Documentation will be available soon.
 
-#Contributions
-Fork the repository.
-Make the fix.
-Submit a pull request 
+# Contributions
+1. Fork the repository.
+2. Make the fix.
+3. Submit a pull request 
