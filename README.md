@@ -3,4 +3,6 @@ A CSS file which will help you save a lot of time. It includes codes that are al
 
 Aim is to provide fully responsive CSS code for daily use. It will work on all devices.
 
+Documentation will be available soon.
+
 Contributions are most welcome.
