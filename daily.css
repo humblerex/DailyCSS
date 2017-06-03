@@ -40,12 +40,38 @@
 	
 }
 
+.btn-solid{
+	padding: 10px;
+	background-color: #0000db;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.btn-transparent{
+	padding: 8px;
+	background-color: white;
+	border: none;
+	color: #0000db;
+	border-radius: 5px;
+	font-size: 15px;
+border: 2px solid #0000db;
+}
+
+
 
 @media screen and (max-width:480px)
 {
 	.danger-box,.success-box,.warning-box{
 		font-weight: normal;
 		font-size: 15px;
+	}
+	
+	
+	.btn-solid,.btn-transparent{
+		width: 100%;
+		margin: 2px 0 2px 0;
 	}
 	
 }
