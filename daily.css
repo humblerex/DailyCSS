@@ -1,0 +1,51 @@
+.warning-box{
+	padding: 10px;
+    border: 1px solid #acac00;
+	background: #e5e890;
+	border-radius:5px;
+	color: #886f06;
+	margin: 5px 0 5px 0;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.danger-box{
+	padding: 10px;
+    border: 1px solid maroon;
+	background: #f7a4a4;
+	border-radius:5px;
+	color: maroon;
+	font-family: sans-serif;
+	margin: 5px 0 5px 0;
+	font-weight: bold;
+}
+.success-box{
+	padding: 10px;
+    border: 1px solid darkgreen;
+	background: lightgreen;
+	border-radius:5px;
+	color: darkgreen;
+	font-family: sans-serif;
+	margin: 5px 0 5px 0;
+	font-weight: bold;
+}
+.pad{
+	padding: 20px;
+	background: #d0cccc;
+	border-radius:5px;
+	color: black;
+	font-family: sans-serif;
+	margin: 5px 0 5px 0;
+
+	box-shadow: 1px 0px 5px black inset;
+	
+}
+
+
+@media screen and (max-width:480px)
+{
+	.danger-box,.success-box,.warning-box{
+		font-weight: normal;
+		font-size: 15px;
+	}
+	
+}
