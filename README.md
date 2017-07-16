@@ -5,6 +5,14 @@ Aim is to provide fully responsive CSS code for daily use. It will work on all d
 
 Documentation will be available soon.
 
+# Features
+1.Buttons (solid, transparent, disabled)
+2.Boxes (Success, warning, danger,etc.)
+3.Navigation Bar
+
+
+
+
 # Contributions
 1. Fork the repository.
 2. Make the fix.
