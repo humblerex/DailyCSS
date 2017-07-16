@@ -4,6 +4,13 @@ It is free to use without any attribution.
 If you found any bug, feel free to contribute.
 */
 
+*{
+	font-family: open sans,sans-serif;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
 .warning-box{
 	padding: 10px;
     border: 1px solid #acac00;
@@ -41,7 +48,6 @@ If you found any bug, feel free to contribute.
 	color: black;
 	font-family: sans-serif;
 	margin: 5px 0 5px 0;
-
 	box-shadow: 1px 0px 5px black inset;
 	
 }
@@ -53,6 +59,8 @@ If you found any bug, feel free to contribute.
 	color: white;
 	border-radius: 5px;
 	font-size: 15px;
+	cursor: pointer;
+	transition: .3s linear all;
 }
 
 .btn-transparent{
@@ -63,21 +71,57 @@ If you found any bug, feel free to contribute.
 	border-radius: 5px;
 	font-size: 15px;
 border: 2px solid #0000db;
+	cursor: pointer;	
+	transition: .1s linear all;
 }
+.btn-disabled{
+		padding: 10px;
+	background-color: #8d8dff;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	font-size: 15px;
+	cursor: no-drop;
+}
+
+.btn-transparent:hover{
+	color: white;
+	background: #0000db;
+	transition: .1s linear all;
+}
+.btn-solid:hover{
+	color: white;
+	background: #0303a2;
+	transition: .1s linear all;
+}
+
+.ash-nav-1{
+	background: #222222;
+	overflow: auto;
+	padding: 0px 10px;
+}
+
+.ash-nav-1 li a{padding: 10px 20px;
+	line-height: 50px;
+	color: white;
+}
+.ash-nav-1 li{
+	list-style-type: none;
+	float: left;
+}
+
+.ash-nav-1 li:hover{background: red;
+}
+
+.ash-nav-1 #logo{float: left;
+line-height: 50px;}
+
+.ash-nav-1 nav{float: right;}
 
 
 
 @media screen and (max-width:480px)
 {
-	.danger-box,.success-box,.warning-box{
-		font-weight: normal;
-		font-size: 15px;
-	}
-	
-	
-	.btn-solid,.btn-transparent{
-		width: 100%;
-		margin: 2px 0 2px 0;
-	}
+
 	
 }
