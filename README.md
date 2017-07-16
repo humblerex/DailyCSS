@@ -7,7 +7,9 @@ Documentation will be available soon.
 
 # Features
 1.Buttons (solid, transparent, disabled)
+
 2.Boxes (Success, warning, danger,etc.)
+
 3.Navigation Bar
 
 
